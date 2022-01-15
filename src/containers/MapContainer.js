@@ -158,7 +158,7 @@ class MapsContainer extends Component {
     const { autoCompleteService, geoCoderService } = this.state; // Google Maps Services
     return (
       <div className="w-100 d-flex py-4 flex-wrap justify-content-center">
-        <h1 className="w-100 fw-md">Find Some Ice-Creams!</h1>
+        <h1 className="w-100 fw-md">Restaurant Nearby!</h1>
         {/* Constraints section */}
         <section className="col-4">
           {mapsLoaded ?
@@ -181,7 +181,7 @@ class MapsContainer extends Component {
                       iconType="car"
                       value={time}
                       onChange={(value) => this.updateConstraintTime(key, value)}
-                      text="Minutes away by car"
+                      text="Distance from me by car"
                     />
                     <Divider />
                   </div>
