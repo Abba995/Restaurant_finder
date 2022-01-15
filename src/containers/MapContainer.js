@@ -223,7 +223,7 @@ class MapsContainer extends Component {
             <Divider />
             <section className="col-12">
               <div className="d-flex flex-column justify-content-center">
-                <h1 className="mb-4 fw-md">Tadah! Ice-Creams!</h1>
+                <h1 className="mb-4 fw-md">Restaurants</h1>
                 <div className="d-flex flex-wrap">
                   {searchResults.map((result, key) => (
                     <PlaceCard info={result} key={key} />
