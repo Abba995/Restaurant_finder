@@ -7,7 +7,7 @@ import ConstraintSlider from '../components/ConstraintSlider';
 
 import { Button, Input, Divider, message } from 'antd';
 
-const SG_COOR = { lat: 1.3521, lng: 103.8198 };
+const SG_COOR = { lat: 25.0657, lng: 55.17128 };
 
 class MapsContainer extends Component {
   constructor(props) {
