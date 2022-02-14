@@ -1,7 +1,6 @@
 ## Welcome
-A React web app that integrates with the Google Maps API to find you ice creams.
+A React web app that integrates with the Google Maps API to find restuarants nearby, if they are open or closed, their rating and distance from a user.
 
-![App in action](https://media.giphy.com/media/Ss05yUKmOCZktVO2cg/giphy.gif)
 
 ## Setup
 Make sure that you have replaced the API_KEY variable in `MapContainer.js` before running the app.
